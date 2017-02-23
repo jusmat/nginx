@@ -19,5 +19,5 @@
 # limitations under the License.
 #
 
-default['nginx']['openssl_source']['version']  = '1.0.1t'
-default['nginx']['openssl_source']['url']      = "http://www.openssl.org/source/openssl-#{node['nginx']['openssl_source']['version']}.tar.gz"
+default['nginx']['openssl_source']['version']  = '1.0.2h'
+default['nginx']['openssl_source']['url']      = "http://www.openssl.org/source/openssl-1.0.2h.tar.gz"
